@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <main>
+      <div class="container">
+        <section id="rating">
+          <div class="card">
+            <div class="image">
+              <img src="./images/icon-star.svg" class="img-btn" />
+            </div>
+            <h1>How did we do?</h1>
+            <p>
+              Please let us know how we did with your support <br />
+              request. All feedback is appreciated to help us <br />improve our
+              offering!
+            </p>
+            <div class="row">
+              <div class="btn">1</div>
+              <div class="btn">2</div>
+              <div class="btn">3</div>
+              <div class="btn">4</div>
+              <div class="btn">5</div>
+            </div>
+            <button class="final-btn">SUBMIT</button>
+          </div>
+        </section>
+        <section id="thankyou" class="hide">
+          <div class="card">
+            <div class="t-image">
+              <img
+                src="./images/illustration-thank-you.svg"
+                class="t-img-btn"
+              />
+            </div>
+            <div class="t-message-div">
+              <p class="t-message">You selected 4 out of 5</p>
+            </div>
+
+            <h1 class="t-head">Thank you!</h1>
+            <p class="t-para">
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don't hesitate to get in touch!
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
